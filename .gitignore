@@ -1,0 +1,4 @@
+# Fichiers générés automatiquement par Python — ne pas versionner sur GitHub
+__pycache__/
+.pytest_cache/
+.venv/
