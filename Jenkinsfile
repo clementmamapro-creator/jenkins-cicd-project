@@ -25,11 +25,11 @@ stages {
         stage('Checkout') {
             steps {
                 echo "==> Récupération du code depuis GitHub"
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/clementmamapro-creator/jenkins-cicd-project.git'
                 echo "==> Code récupéré dans le workspace"
             }
-        }   
+        }
 
 // Stage 2 : installer les dépendances Python
         // pip lit requirements.txt et installe pytest + pymongo
